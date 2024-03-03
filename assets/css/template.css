@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 300px;
 }
 
 header {
@@ -141,4 +142,48 @@ nav a:hover {
     color: #FFFFFF;
     font-size: 13px;
     text-decoration: none;
+}
+
+.banner_hours {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+}
+
+span {
+    margin-top: 20px;
+    font-size: 12px;
+    
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex:2;
+}
+
+#geral aside {
+    flex:1
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    font-size: 21px;
+    color: #000;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
 }
